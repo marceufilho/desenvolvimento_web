@@ -1,0 +1,30 @@
+Refericia das ferramentas usadas na aula:
+
+Python: https://docs.python.org/3/
+        https://pypi.org/
+
+O python é uma liguagem multi proposito que pode ser usada para o
+desenvolvimento web com auxilio de frameworks como Django e FastAPI.
+Seu uso é mais limitado no frontend por não ser uma liguagem 
+nativa de browser. Podendo até sendo usados transpillers em situações
+limitrofes para adequar. Pode ser usado para o auxilio dos topicos
+ 1 a 4, 11, 12, 13, 14 do nosso curso.
+
+SQLite: https://github.com/sqlitebrowser/sqlitebrowser/wiki
+        https://www.sqlite.org/
+        https://sqlitebrowser.org/
+        
+O SQLite é uma ferramenta para fazer o design e editar banco de dados
+SQLite. Pode ser usada para ser o banco de dados de nossa aplicção,
+assim o sqlitebrowser pode auxiliar nosso desenvolvimento.
+Pode ser utilizado para uxiliar a explanação dos topicos 3,8, 11, 12,
+13,14.
+
+
+Git: https://git-scm.com/doc
+     https://docs.github.com/pt
+
+Git é um software de versionamento de codigo que pode ser usado para
+melhor organizar o projeto.
+Pode ser utilizado em todo nosso curso para auxiliar com versionamento
+das diversas tecnologias que vamos usar e sua documentação.
