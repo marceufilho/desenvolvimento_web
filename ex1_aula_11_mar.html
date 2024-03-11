@@ -5,7 +5,7 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <h1>Exercício 1</h1>
+        <h1 id = "referencia interna">Exercício 1</h1>
         <h2>Exercício 2</h2>
         <h3>Exercício 3</h3>
         <h4>Exercício 4</h4>
@@ -15,17 +15,37 @@
         <div>Teste para ver formatação basica do DIV</div>
         <p><span>span</span> Resto do texto</p>
         <ol>
-            <li>Primeiro ponto</li>
-            <li>Segundo ponto
+            <li><ins>Primeiro ponto</ins></li>
+            <li><strong>Segundo ponto</strong>
                 <ul>
-                    <li>ponto não ordenado</li>
-                    <li>ponto não ordenado</li>
+                    <li><em>ponto não ordenado</em></li>
+                    <li>ponto <del>não ordenado</del></li>
                 </ul>
             </li>
         </ol>
+        <ul>
+            <li>
+                <img src = "/midias/caixa.jpg"
+                     width = "150">
+                </img>
+            </li>
+            <li>
+                <video controls width = "150">
+                    <source src = "/midias/doguinho.mp4" 
+                            type = "video/mp4">
+                </video>
+            </li>
+            <li>
+                <audio controls 
+                       src = "/midias/light-my-fire.mp3">
+                </audio>
+            </li>
+        </ul>
+            
         <menu>
             <li><button id = "Primeiro link">Primeiro link</button></li>
             <li><button onclick = "seugundolink()">Segundo link</button></li>
+            <li><a href = "#referencia interna">Vai para exercicio 1</a></li>
         </menu>
     </body>
 </html>
