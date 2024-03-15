@@ -11,6 +11,7 @@
         <h4>Exercício 4</h4>
         <h5>Exercício 5</h5>
         <h6>Exercício 6</h6>
+        <hr>
         <p>Primeiro texto para visualização no navegador</p>
         <div>Teste para ver formatação basica do DIV</div>
         <p><span>span</span> Resto do texto</p>
@@ -23,6 +24,7 @@
                 </ul>
             </li>
         </ol>
+        <hr>
         <ul>
             <li>
                 <img src = "/midias/caixa.jpg"
@@ -41,11 +43,38 @@
                 </audio>
             </li>
         </ul>
-            
+        <hr>
+        <form method = "post">
+            <ul>
+                <li>
+                    <label for = name> Primeiro nome:</label>
+                    <input type = "text" id = "name" name = "user_name"/>
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+            </ul>
+        </form>
+        <form method = "get">
+            <label for = curso>Qual o seu curso:</label>
+            <select name = "curso" id = "curso">
+                <option value="CS">Ciência da computação</option>
+                <option value="DS">Ciência de dados</option>
+            </select>
+        </form>
+        <hr>
         <menu>
-            <li><button id = "Primeiro link">Primeiro link</button></li>
-            <li><button onclick = "seugundolink()">Segundo link</button></li>
-            <li><a href = "#referencia interna">Vai para exercicio 1</a></li>
+            <li>
+                <a href = "#referencia interna">
+                    <button id = "link interno">Exercicio 1</button>
+                </a>
+            </li>
+            <li>
+                <a href = "https://www.paulgraham.com/articles.html">
+                    <button onclick = "linkexterno()">PG Essays</button>
+                </a>
+            </li>
         </menu>
     </body>
 </html>
