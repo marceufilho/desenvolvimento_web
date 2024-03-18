@@ -1,0 +1,14 @@
+html{
+    font-family: "Source Serif 4", serif;
+}
+div{
+    background-color:blue;
+}
+#tamanho_relativo{
+    background-color: antiquewhite;
+    font-size: 1.8rem;
+}
+#tamanho_fixo{
+    background-color: aqua;
+    font-size: 1cm;
+}
