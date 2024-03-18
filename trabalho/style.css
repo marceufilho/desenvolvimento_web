@@ -4,11 +4,11 @@ html{
 div{
     background-color:blue;
 }
-#tamanho_relativo{
+#tamanho-relativo{
     background-color: antiquewhite;
     font-size: 1.8rem;
 }
-#tamanho_fixo{
+#tamanho-fixo{
     background-color: aqua;
     font-size: 1cm;
 }
