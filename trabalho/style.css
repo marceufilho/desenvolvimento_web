@@ -12,3 +12,8 @@ div{
     background-color: aqua;
     font-size: 1cm;
 }
+#meu-span{
+    font-weight: bold;
+    color: red;
+    background-color:turquoise;
+}
