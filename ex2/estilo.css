@@ -1,0 +1,31 @@
+#grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    gap: 3rem;
+    padding: 3rem;
+    background-color: yellow;
+    grid-template-areas: 
+    "p p . ."
+    "p p . ."
+    ". b b b"
+    ;
+}
+#preta{
+    background-color: black;
+    grid-area: p;
+}
+#branca{
+    background-color: white;
+    grid-area: b;
+}
+
+@media (min-width: 1024px){
+    #grid-container{
+        grid-template-areas: 
+        "p p p p"
+        ". . . ."
+        "b b b b"
+        ;
+    }
+}
